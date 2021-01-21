@@ -1,0 +1,9 @@
+.title {
+    text-align: center;
+    height: 15vh;
+    width: 100vw;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 20px;
+    color: white;
+}

@@ -1,0 +1,45 @@
+.formWrapper {
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    height: 40vh;
+    width: 60vw;
+    border: solid 3px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+input {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 7px;
+}
+
+.titleInput {
+    height: 30px;
+}
+
+.thoughtInput {
+    height: 100px;
+}
+
+.titlePost, .thoughtPost {
+    font-weight: bold;
+}
+
+.thoughtPost {
+    margin-top: 25px;
+}
+
+button {
+    margin-top: 20px;
+    width: 96%;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: white;
+    border: solid 2px;
+}

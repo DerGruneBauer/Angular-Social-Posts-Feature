@@ -1,0 +1,20 @@
+
+.postTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.postThought {
+    font-size: 15px;
+}
+
+/* use icon for trash button  */
+.deleteButton {
+    height: 30px;
+    width: 30px;
+    background-image: url("/assets/trash.svg"); 
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+}

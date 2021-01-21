@@ -1,0 +1,17 @@
+<div class="test"></div>
+<div class="wrapper">
+  <button class="newThoughtButton" (click)="showPostForm = !showPostForm" (click)="darken()">NEW THOUGHT</button>
+  <div class="postsWrapper">
+      <div class="initialMessage" *ngIf = "posts.length == 0">Whatcha thinking?<br> Add some new thoughts by clicking the button above!</div>
+    <app-posts
+    class="individualPost"
+      *ngFor="let post of posts; let i = index"
+      [post]="post"
+      (deleted)="onDelete(i)"
+    ></app-posts>
+  </div>
+</div>
+<app-form-post
+  *ngIf="showPostForm"
+  (submitted)="onSubmit($event)"
+></app-form-post>

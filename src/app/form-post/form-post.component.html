@@ -1,0 +1,13 @@
+<div class="formWrapper">
+    <div class="titlePost">Title<br>
+  <input class="titleInput" [(ngModel)]="post.title" type="text" /></div>
+  <div class="thoughtPost">
+  Thought<br>
+  <input
+    class="thoughtInput"
+    [(ngModel)]="post.thought"
+    type="text"
+    (keyup.enter)="submitPost()"
+  /></div>
+  <button (click)="submitPost()">ADD POST</button>
+</div>
